@@ -1,0 +1,27 @@
+# Visual Studio build outputs and user-specific settings
+.vs/
+x64/
+Debug/
+Release/
+[Bb]uild/
+
+# Compiled objects and intermediates
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ipch
+*.ilk
+*.tlog
+*.log
+
+# Local database and cache files
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.cachefile
+
+# User-specific IDE state
+*.user
+*.suo

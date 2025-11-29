@@ -1,6 +1,8 @@
 #include "Value.hpp"
 
 #include <iostream>
+#include <vector>
+#include <cstdlib>
 
 int main()
 {
@@ -39,7 +41,6 @@ int main()
 		w1 = Value(w1.getData() + -w1.getGrad() * 0.001f);
 		w2 = Value(w2.getData() + -w2.getGrad() * 0.001f);
 		b = Value(b.getData() + -b.getGrad() * 0.001f);
-		//std::cout << mse.getData() << std::endl;
 	}
 
 	std::cout << (x1 * w1 + x2 * w2 + b).getData() << std::endl;
